@@ -1,0 +1,104 @@
+body {
+	background: url('../images/bg.jpeg');
+	font-family: 'Raleway', sans-serif;
+    background-size: 100%;
+}
+
+header {
+  position: relative;
+  background-color: transparent;
+  color: #313477;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  padding: 10px;
+  margin: 10px;
+}
+
+.animalButton {
+  padding: 10px 20px;
+  font-weight: bolder;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #313477;
+  background-color: #bdd9c7;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px white;
+  display: inline;
+  margin: 5px 5px;
+}
+
+.animalButton:hover {
+  background-color: #999;
+}
+
+.animalButton:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#gifPanel {
+  margin: 10px 0px 0px 0px;
+}
+
+.animalGif {
+  margin: 20px 20px 0px 0px;
+  float: left;
+  background-color:white;
+  border-radius: 15px;
+}
+
+.animalGif:hover {
+  background-color: #999;
+}
+
+.animalGif h2 {
+  font-size: 15px;
+  font-weight: bolder;
+  color: #313477;
+  text-align: center;
+  position: relative;
+}
+
+.animalGif img {
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+}
+
+.formPanel {
+  position: relative;
+  top: 30px;
+  right: 35px;
+  border-radius: 15px;
+  background-color: white;
+  height: 145px;
+}
+
+.inputLabel {
+  font-size: 15px;
+  color: #313477;
+  margin: 15px 0px;
+  margin-left: 32px;
+}
+
+#animal-input {
+  width: 137px;
+  margin-left: 15px;
+}
+
+#animal-input:focus {
+  background-color: #bdd9c7;
+}
+
+#add-animal {
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 5px 45px;
+}
+
+
+
+
